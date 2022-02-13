@@ -26,8 +26,8 @@ function play(playerSelection,computerSelection){
 function game(){
     let plyCount = 1;
     let comCount = 1;
-    while(plyCount<3||comCount<3){
-        let playerSelection = prompt("Rock,Paper,Scissors");
+    // while(plyCount<3||comCount<3){
+        // let playerSelection = prompt("Rock,Paper,Scissors");
         let computerSelection = computerPlays();
         if(play(playerSelection,computerSelection) === true){
             console.log("You Won!")
@@ -40,7 +40,7 @@ function game(){
         else{
             console.log("Tie")
         }
-    }
+    // }
     console.log("The End");
 }
 
