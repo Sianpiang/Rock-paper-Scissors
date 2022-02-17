@@ -4,13 +4,35 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
 }
-button{
+div button{
     padding: 50px;
     margin: 10px;
     font-size: 20px;
     font-weight: bold;
 }
+input{
+    padding: 20px 40px;
+    margin: 0 0 10px -21px;
+}
+
+.Score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 535px;
+    height: 200px;
+    border: 2px solid black;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 535px;
+    height: 100px;
+    border: 2px solid black;
+}   
