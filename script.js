@@ -6,7 +6,6 @@ const resetBtn = document.querySelector('Input');
 const display = document.querySelector('.display');
 const score = document.querySelector('.Score');
 
-console.log(score);
 
 resetBtn.addEventListener('click', ()=> location.reload());
 
